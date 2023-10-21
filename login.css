@@ -1,0 +1,26 @@
+body{
+    background-color: darkgray;
+}
+[type="text"] {
+  padding: 4px;
+  margin-top: 4px;
+  margin-left: 400px;
+}
+[type="password"] {
+  padding: 4px;
+  margin-top: 4px;
+  margin-left: 400px;
+}
+button {
+  margin-left: 400px;
+  margin-top: 20px;
+  color: white;
+  background-color:dimgray;
+  outline: none;
+  border: none;
+  height: 25px;
+  width: 180px;
+}
+form {
+  margin-top: 20px;
+}

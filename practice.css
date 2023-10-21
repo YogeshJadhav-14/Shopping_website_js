@@ -1,0 +1,135 @@
+       
+       .a{
+        margin-left: 30px;
+        margin-top: 30px;
+        display: block;
+        padding:8px 35px;
+        background-color: burlywood;
+        outline: none;
+        border: none;
+        z-index: -1;
+    }
+    .b{
+        margin-left: 30px;
+        margin-top: 30px;
+        display: block;
+        padding:8px 29px;
+        background-color: burlywood;
+        outline: none;
+        border: none;
+    }
+    .c{
+        margin-left: 30px;
+        margin-top: 30px;
+        display: block;
+        padding:8px 20px;
+        background-color: burlywood;
+        outline: none;
+        border: none;
+    }
+    .d{
+        margin-left: 30px;
+        margin-top: 30px;
+        display: block;
+        padding:8px 23px;
+        background-color: burlywood;
+        outline: none;
+        border: none;
+    }
+    .e{
+        margin-left: 30px;
+        margin-top: 30px;
+        display: block;
+        padding:8px 10px;
+        background-color: burlywood;
+        outline: none;
+        border: none;
+    }
+    table{
+        margin-left: 200px;
+        position: relative;
+        top: -20px;
+        left: -8px;
+       width: 780px;
+        background-color: cornsilk;
+    }
+    table,tr,td{
+        border:solid 1px black;
+        border-collapse:collapse ;
+        margin-top:20px ;
+        
+    }
+    tr:nth-child(odd):hover{
+        background-color:rgba(222, 184, 135, 0.597);
+    }
+    tr:nth-child(even):hover{
+        background-color:burlywood;
+    }
+    nav{
+        background-color: bisque;
+        height: 500px;
+        width: 200px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+    }
+    h2{
+        padding: 20px 0px;
+        display: inline-block;
+    }
+    form{
+        display: inline-block;
+        margin-left: 200px;
+        
+    }
+    .k{
+        margin-left: 50px;
+        }
+    .ketch{
+        letter-spacing: 8px;
+        margin-left: 30px;
+    }
+    .divv{
+        background-color: rgba(244, 165, 96, 0.666);
+        margin-top: -17px;
+        
+        width: 980px;
+        height: 100px;
+       
+
+    }
+    .search{
+        background-color: bisque;
+        border: 1px solid black;
+        height: 20px;
+
+    }
+    p{
+        font-size: 11px;
+        padding-top: 8px;
+        padding-left: 450px;
+        color: black;
+         position: absolute;
+         font-weight: bold;
+        }
+    form{
+        
+        margin-left: 680px;
+        margin-top: 38px;
+        border: none;
+        
+    }
+    i{
+        padding: 35px 6px;
+        float: right;
+       
+    }
+    span{
+        position: relative;
+        font-size: 14px;
+        top: 52px;
+        margin-left: 300px;
+        font-weight: bold;
+        
+    }

@@ -1,0 +1,37 @@
+body{
+    background-image: url("./loginimage_01.jpg");
+    background-repeat: no-repeat;
+}
+label{
+    font-size: 12px;
+    
+}
+form{
+    margin-left: 300px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color:plum;
+    width: 300px;
+}
+body{
+    box-sizing: border-box;
+    background-color: lightskyblue;
+}
+.register{
+    margin-left: 298px;
+    padding-top: 0px;
+    color: black;
+    
+}
+.h55{
+    margin-top: 0px;
+    margin-left: 300px;
+    display: inline-block;
+    
+}
+.click{
+    margin-left: 10px;
+    padding: 1px;
+    margin-top:-0px ;
+    display: inline-block;
+}
