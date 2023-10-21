@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn{
+            padding: 4px;
+            margin-left: 20px;
+            color: black;
+            background-color: darkgray;
+            border: none;
+            position: relative;
+            top: 50px;
+            left: -110px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+    <p></p>
+    <p></p>
+    <img src="" alt="">
+    <button id="btn" onclick="back()">Go Back</button>
+    <script>
+         let back=()=>{
+            window.history.back()
+            // window.close()
+        }
+         
+        var g=localStorage.getItem("addingdescription");
+        datagettings=JSON.parse(g);
+        console.log(datagettings);
+
+        let para=document.querySelectorAll("p");
+        para[0].innerText=datagettings["id"];
+        para[1].innerText=datagettings["category"];
+        para[2].innerText=datagettings["description"];
+        para[0].style.fontSize="12px";
+        para[1].style.fontSize="12px";
+        para[2].style.fontSize="12px";
+     
+        
+        
+
+        
+        let imgget=document.querySelector("img");
+        imgget.setAttribute("src",datagettings["image"]);
+        imgget.style.width="100px"
+        imgget.style.height="100px"
+       
+       
+    </script>
+    
+</body>
+</html>
